@@ -8,7 +8,7 @@
 /* Font and Body Styling */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f7f1e3;
     color: #333;
     line-height: 1.6;
 }
@@ -23,7 +23,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #3b3a3d;
+    background-color: #4a3f35;
     color: #fff;
     padding: 2em 1em;
     text-align: center;
@@ -34,17 +34,19 @@ header h1 {
     font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 0.2em;
+    color: #f9d1a3;
 }
 
 header p {
     font-size: 1.2em;
     font-weight: 300;
-    color: #d0d0d0;
+    color: #ebcbb7;
 }
 
 /* Section Styling */
 .section {
-    background-color: #fff;
+    background-color: #fffaf3;
+    border-left: 6px solid #f9d1a3;
     border-radius: 8px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     padding: 1.5em;
@@ -57,7 +59,7 @@ header p {
 }
 
 h2 {
-    color: #3b3a3d;
+    color: #4a3f35;
     margin-bottom: 0.8em;
     font-size: 1.8em;
     font-weight: 600;
@@ -65,7 +67,7 @@ h2 {
 
 p {
     font-size: 1.1em;
-    color: #555;
+    color: #5a4d4d;
 }
 
 .highlight {
@@ -76,7 +78,7 @@ p {
 /* List Styling */
 ul, ol {
     padding-left: 1.5em;
-    color: #555;
+    color: #5a4d4d;
     margin-top: 0.5em;
 }
 
@@ -103,7 +105,7 @@ li {
 
 /* Footer Styling */
 footer {
-    background-color: #3b3a3d;
+    background-color: #4a3f35;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -113,5 +115,5 @@ footer {
 
 footer p {
     font-size: 1em;
-    color: #d0d0d0;
+    color: #ebcbb7;
 }
