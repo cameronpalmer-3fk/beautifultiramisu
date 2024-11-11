@@ -1,0 +1,80 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Main Container Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf3e0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #8c5c3d;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #8c5c3d;
+    margin-bottom: 0.5em;
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.highlight {
+    color: #c28460;
+    font-weight: bold;
+}
+
+/* Image Styling */
+.image {
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8c5c3d;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
