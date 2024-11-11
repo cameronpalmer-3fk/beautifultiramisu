@@ -5,15 +5,14 @@
     box-sizing: border-box;
 }
 
-/* Font and Body Styling */
+/* Body and Main Container Styling */
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f7f1e3;
+    font-family: Arial, sans-serif;
+    background-color: #faf3e0;
     color: #333;
     line-height: 1.6;
 }
 
-/* Container */
 .container {
     width: 90%;
     max-width: 800px;
@@ -23,66 +22,61 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #4a3f35;
+    background-color: #8c5c3d;
     color: #fff;
-    padding: 2em 1em;
+    padding: 1.5em 0;
     text-align: center;
-    border-radius: 8px;
 }
 
 header h1 {
-    font-size: 2.5em;
-    font-weight: 600;
-    margin-bottom: 0.2em;
-    color: #f9d1a3;
-}
-
-header p {
-    font-size: 1.2em;
-    font-weight: 300;
-    color: #ebcbb7;
+    font-size: 2em;
+    margin-bottom: 0.5em;
 }
 
 /* Section Styling */
 .section {
-    background-color: #fffaf3;
-    border-left: 6px solid #f9d1a3;
-    border-radius: 8px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    padding: 1.5em;
     margin-bottom: 2em;
-    transition: transform 0.2s;
-}
-
-.section:hover {
-    transform: translateY(-5px);
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #4a3f35;
-    margin-bottom: 0.8em;
-    font-size: 1.8em;
-    font-weight: 600;
+    color: #8c5c3d;
+    margin-bottom: 0.5em;
+    font-size: 1.6em;
 }
 
 p {
     font-size: 1.1em;
-    color: #5a4d4d;
+    color: #555;
 }
 
 .highlight {
-    color: #c48d60;
-    font-weight: 600;
+    color: #c28460;
+    font-weight: bold;
 }
 
-/* List Styling */
-ul, ol {
-    padding-left: 1.5em;
-    color: #5a4d4d;
-    margin-top: 0.5em;
+/* Fun Facts Section Styling */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
 }
 
 li {
+    margin: 0.5em 0;
+}
+
+/* Recipe Section Styling */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: #555;
+}
+
+ol li {
     margin: 0.5em 0;
 }
 
@@ -95,25 +89,14 @@ li {
 .image img {
     max-width: 100%;
     border-radius: 8px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.image p {
-    font-size: 0.9em;
-    color: #888;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer Styling */
 footer {
-    background-color: #4a3f35;
+    background-color: #8c5c3d;
     color: #fff;
     text-align: center;
     padding: 1em 0;
-    border-radius: 8px;
     margin-top: 2em;
-}
-
-footer p {
-    font-size: 1em;
-    color: #ebcbb7;
 }
